@@ -1,0 +1,142 @@
+/* ── Global ── */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f7fa;
+    color: #333;
+}
+
+/* ── Navbar ── */
+nav {
+    background-color: #1a6b3c;
+    padding: 16px 32px;
+    color: white;
+}
+
+nav h1 {
+    font-size: 1.5rem;
+}
+
+/* ── Hero ── */
+.hero {
+    background: linear-gradient(135deg, #1a6b3c, #25a25a);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    margin-bottom: 12px;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    margin-bottom: 24px;
+    opacity: 0.9;
+}
+
+.btn {
+    background-color: white;
+    color: #1a6b3c;
+    padding: 12px 28px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.2s;
+}
+
+.btn:hover {
+    background-color: #e8f5e9;
+}
+
+/* ── Info Section ── */
+.info {
+    max-width: 700px;
+    margin: 40px auto;
+    background: white;
+    padding: 28px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.info h3 {
+    margin-bottom: 16px;
+    color: #1a6b3c;
+}
+
+.info ul {
+    list-style: none;
+}
+
+.info ul li {
+    padding: 8px 0;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 1rem;
+}
+
+.info ul li i {
+    margin-right: 8px;
+    color: #1a6b3c;
+}
+
+/* ── Slots Section ── */
+.slots {
+    max-width: 700px;
+    margin: 0 auto 40px;
+    background: white;
+    padding: 28px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.slots h3 {
+    margin-bottom: 16px;
+    color: #1a6b3c;
+}
+
+.slot-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.slot {
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+
+.slot i {
+    margin-right: 6px;
+}
+
+.slot.available {
+    background-color: #eafaf1;
+    border: 1px solid #2ecc71;
+    color: #1a6b3c;
+}
+
+.slot.booked {
+    background-color: #fdf0f0;
+    border: 1px solid #e74c3c;
+    color: #c0392b;
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+/* ── Footer ── */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-top: 1px solid #e0e0e0;
+    color: #888;
+    font-size: 0.9rem;
+}
